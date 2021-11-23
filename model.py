@@ -21,7 +21,7 @@ st.write('Depending on vitals of human body this model can predict if the people
 st.write(" ")
 st.write(" ")
 st.write(" ")
-st.sidebar.title('Custom Input')
+st.sidebar.title('Vitals')
 
 df = pd.read_csv("healthcare-dataset-stroke-data.csv")
 df.isna().sum()
