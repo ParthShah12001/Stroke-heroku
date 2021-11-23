@@ -15,7 +15,9 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 global worty1, mar1, hede1, hyten1, gen1, res1, ss1
-st.title('Model Accuracy and Prediction')
+st.title('Stroke Prediction')
+st.write(" ")
+st.write('Depending on vitals of human body this model can predict if the people  will have a * **stroke** or not')
 st.write(" ")
 st.write(" ")
 st.write(" ")
